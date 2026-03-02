@@ -1,0 +1,128 @@
+/* global reset and typography */
+* { box-sizing: border-box; }
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f7fa;
+}
+.container {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* header/nav */
+.site-header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.site-header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+.main-nav a {
+    margin-right: 15px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+/* footer */
+.site-footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+/* typography */
+h1, h2 {
+    color: #222;
+}
+
+/* tables */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.table th,
+.table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+.table th {
+    background-color: #f0f0f0;
+    font-weight: 600;
+}
+.table tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}
+.actions a {
+    margin-right: 5px;
+}
+
+/* cards */
+.card {
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+.card-actions {
+    margin-top: 15px;
+}
+
+/* buttons */
+.btn {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #6c757d;
+    font-size: 0.9rem;
+}
+.btn:hover {
+    opacity: 0.9;
+}
+.btn-primary {
+    background-color: #007bff;
+}
+.btn-danger {
+    background-color: #dc3545;
+}
+.btn-sm {
+    padding: 4px 8px;
+    font-size: 0.8rem;
+}
+
+/* forms */
+.task-form .form-group {
+    margin-bottom: 15px;
+}
+.task-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.task-form input[type="text"],
+.task-form textarea,
+.task-form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
